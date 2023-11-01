@@ -6,6 +6,9 @@
 		<servlet-name>Startup</servlet-name>
 		<servlet-class>com.example.Startup</servlet-class>
 	</servlet>
+	<listener>
+    <listener-class>com.example.Startup</listener-class>
+  </listener>
 	<servlet-mapping>
 		<servlet-name>Startup</servlet-name>
 		<url-pattern>/Startup</url-pattern>
